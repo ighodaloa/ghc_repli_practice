@@ -445,3 +445,59 @@ a:focus{ /**mouse click on links**/
     font-size: 24px;
     color: #00416a;
 }
+
+.state_outreach{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-color: #CCFF99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1500;
+}
+
+.state_outreach_gif1{
+    transform:rotate(-75deg);
+    position: relative;
+    top: -150px;
+}
+
+.state_outreach_content{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.state_outreach_h4{
+    margin: 0px;
+    color:white;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.state_outreach_text{
+    display: flex;
+}
+
+.state_outreach_h1W{
+    margin: 0px;
+    font-size: 90px;
+    font-weight: 700;
+    color:white;
+    border-bottom:#ede813 solid 2px;
+}
+
+.state_outreach_h1Y{
+    margin: 0px;
+    font-size: 90px;
+    color: #EDE813;
+    border-bottom:#ede813 solid 2px;
+}
+
+.state_outreach_gif2{
+    transform:rotate(45deg);
+    position: relative;
+    top: -150px;
+}
